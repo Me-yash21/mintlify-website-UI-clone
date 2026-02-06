@@ -12,6 +12,7 @@
   --color-bg-black-button-hover:lab(8.14% -0.48 -0.17);
   --color-bg-white-buttton-default:lab(100% 0.01 -0.01);
   --color-bg-white-button-hover:lab(87.33% -0.33 -0.13);
+  --color:#57575a;
 }
 
 *{
@@ -351,7 +352,7 @@ input:active{
 }
 
 .card-label{
-  color: var(--accent-color);
+  color: var(--color-text-heading);
   font-size: 12px;
   line-height: 18px;
   font-weight: 500;
@@ -420,3 +421,164 @@ input:active{
   pointer-events: none;
 }
 
+.enterprise-section{
+  padding: 96px 0px;
+  background-color: #151616;
+}
+.enterprise-container{
+  max-width: 64rem;
+  margin: 0 auto;
+}
+
+.enterprise-top{
+  display: flex;
+  padding-bottom: 48px;
+  gap: 24px;
+  justify-content: space-between;
+}
+
+.enterprise-top-left{
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  align-items: flex-start;
+  max-width: 40rem;
+}
+
+.enterprise-top-left h3{
+  font-size: 40px;
+  line-height: 44px;
+  font-weight: 600;
+  text-wrap: wrap balance;
+}
+
+.enterprise-top-right{
+  display: flex;
+  align-items: flex-end;
+}
+
+.enterprise-middle{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  gap: 48px;
+  margin: 24px 0;
+  padding-bottom: 48px;
+}
+
+.enterprise-middle-card{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.enterprise-middle-card h4{
+  font-size:  20px;
+  line-height: 26px;
+  font-weight: 600;
+  margin-top: 32px;
+  margin-bottom: 16px;
+}
+
+.para-text-16px{
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  color: var(--color-text-paragraph-700);
+  text-wrap-mode: wrap;
+  text-wrap-style: pretty;
+}
+
+.enterprise-bottom{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap:48px;
+}
+
+.enterprise-panel-card-container{
+  position: relative;
+  padding: 64px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  border-radius: 24px;
+  background-image: url("./asset/anthropic_background.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 508px;
+}
+
+.panel-card-top{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.enterprise-panel-card-label{
+  font-size: 12px;
+  line-height: 18px;
+  font-weight: 600;
+  color: var(--color-text-main);
+  text-transform: uppercase;
+}
+
+.panel-card-top h3{
+  font-size: 24px;
+  line-height: 32px;
+  font-weight: 500;
+  text-wrap: wrap balance;
+  max-width: 28rem;
+  margin-top: 16px;
+}
+
+.panel-card-cta-btn{
+  margin-top: 32px;
+}
+
+.panel-card-cta-btn span{
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 23px;
+  display: flex;
+  gap:6px;
+  align-items: center;
+}
+
+.panel-card-bottom{
+  display: flex;
+  gap: 28px;
+}
+
+.anthropic_info{
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  max-width: 12rem;
+}
+
+.anthropic_info_head{
+  font-size: 40px;
+  line-height: 44px;
+  font-weight: 400;
+}
+
+.anthropic_info_desc{
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 400;
+  text-wrap: wrap pretty;
+}
+
+.enterprise-company_logos{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.enterprise-logo{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 140px;
+}
