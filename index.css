@@ -116,7 +116,8 @@ button{
 
 .btn-black{
   color: var(--color-text-main);
-  background-color: var(--color-bg-black-buttton-default);
+  background-color: lab(2.42579 -0.165291 -0.470081);
+  border: 0.8px solid lab(100 0 0 / 0.15);
 }
 
 .btn-black:hover{
@@ -664,4 +665,92 @@ input:active{
 
 .cust-card-link:hover{
   color: var(--color-text-heading);
+}
+.pricing-section{
+  padding: 120px 24px;
+}
+
+.pricing-demo-container{
+  margin: 0 auto;
+  max-width: 988px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.demo-section-heading{
+  font-size: 40px;
+  line-height: 44px;
+  font-weight: 600;
+  text-align: center;
+  text-wrap: wrap balance;
+  max-width:560px;
+}
+.demo-section-para{
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  text-align: center;
+  text-wrap: wrap balance;
+  margin-top:16px;
+  max-width:560px;
+}
+
+.demo-section-buttons{
+  display: flex;
+  gap: 8px;
+  margin-top: 48px;
+}
+
+.demo-section-card-grid{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  width: 100%;
+  margin-top: 56px;
+}
+
+.demo-section-card{
+  display: flex;
+  flex-direction: column;
+  padding: 32px;
+  align-items: center;
+  gap: 32px;
+}
+
+.demo-card-logo{
+  padding: 10px;
+  background-color: lab(2.42579 -0.165291 -0.470081);
+  border: 0.8px solid lab(100 0 0 / 0.15);
+  border-radius: 16px;
+  color: #2ce19a;
+}
+
+.demo-card-details{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+}
+
+.demo-card-details h4{
+  font-size: 20px;
+  line-height: 26px;
+  font-weight: 500;
+  text-align: center;
+}
+.demo-card-details p{
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  text-align: center;
+}
+
+.demo-card-link{
+  color: var(--color-text-heading);
+  margin-top: 0px;
+}
+
+.left-demo-card{
+  border-right: 0.8px solid lab(100 0 0 / 0.05);
 }
