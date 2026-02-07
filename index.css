@@ -754,3 +754,107 @@ input:active{
 .left-demo-card{
   border-right: 0.8px solid lab(100 0 0 / 0.05);
 }
+
+footer{
+  width: 100%;
+  border-top: 0.8px solid lab(100 0 0 / 0.05);
+  background-image: linear-gradient(to top, lab(100 0 0 / 0.01),lab(100 0 0 / 0.02));
+}
+
+.footer-container{
+  max-width: 1022px;
+  border-left: 0.8px solid lab(100 0 0 / 0.05);
+  border-right: 0.8px solid lab(100 0 0 / 0.05);
+  margin: 0 auto;
+}
+
+.footer-top{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 64px 32px 24px 32px;
+}
+
+.footer-top-social-media-links{
+  display: flex;
+  gap: 16px;
+}
+
+.footer-navlink{
+  padding: 48px 32px 72px 32px;
+  display: grid;
+  grid-template-columns: repeat(5,1fr);
+  border-top: 0.8px solid lab(100  0 0 / 0.05);
+  border-bottom: 0.8px solid lab(100  0 0 / 0.05);
+}
+
+.nav-col-heading{
+  font-size: 13px;
+  line-height: 20px;
+  font-weight: 500;
+  color: var(--color-text-paragraph-500);
+  text-transform: uppercase;
+  padding: 6px 12px;
+  margin-bottom: 4px;
+}
+
+.nav-col-list{
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.nav-col-list li a
+{
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: 500;
+  color: var(--color-text-main);
+  text-decoration: none;
+  text-transform: capitalize;
+  padding: 6px 12px;
+}
+
+.footer-copyright{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 32px 32px 96px 32px;
+}
+
+.footer-copyright{
+  font-size: 13px;
+  line-height: 20px;
+  font-weight: 400;
+}
+.footer-label{
+  padding: 4px 12px;
+  background-color: lab(100 0 0 / 0.05);
+  border-radius: 20px;
+}
+
+.footer-copyright-text{
+  color: lab(100 0 0 / 0.6);
+}
+
+.theme-box {
+  display: flex;
+  padding: 3px;
+  border-radius: 20px;
+  background-color: lab(100 0 0 / 0.05);
+}
+
+.theme {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 4px 6px;
+  border-radius: 17px;
+}
+
+.theme1 {
+  background-color: lab(2.42579 -0.165291 -0.470081);
+}
+
